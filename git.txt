@@ -557,6 +557,14 @@ $ git check-ignore -v App.class
 .gitignore:3:*.class    App.class
 Git会告诉我们，.gitignore的第3行规则忽略了该文件，于是我们就可以知道应该修订哪个规则
 
+
+ignore files的另外两种方法
+（2）通过配置.git/info/exclude文件来忽略文件。这种方式对仓库全局有效，只能对自己本地仓库有作用，其他人没办法通过这种方式来共享忽略规则，除非他人也修改其本地仓库的该文件。
+（3）通过.git/config配置文件的core. Excludesfile选项，指定一个忽略规则文件（完整路径），如下图所示。忽略规则在文件e:/gitignore.txt中（当然该文件名可以任意取）。
+
+       该方式的作用域是也全局的。
+
+
 2.配置别名
 有没有经常敲错命令？比如git status？status这个单词真心不好记。
 如果敲git st就表示git status那就简单多了，当然这种偷懒的办法们是极力赞成的。
