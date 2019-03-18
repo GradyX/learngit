@@ -571,3 +571,6 @@ ignore files的另外两种方法
 我们只需要敲一行命令，告诉Git，以后st就表示status：
 $ git config --global alias.st status
 好了，现在敲git st看看效果。
+
+3.安装Git服务器
+https://blog.csdn.net/alisen169/article/details/81941524
