@@ -573,4 +573,6 @@ $ git config --global alias.st status
 好了，现在敲git st看看效果。
 
 3.安装Git服务器
-https://blog.csdn.net/alisen169/article/details/81941524
+(1)https://blog.csdn.net/alisen169/article/details/81941524
+(2)https://www.cnblogs.com/dee0912/p/5815267.html#_label0
+
